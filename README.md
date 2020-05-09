@@ -1,5 +1,6 @@
-# undefined
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+
+  #project
+  ![Github licence](http://img.shields.io/badge/license-GNU GPLv3-blue.svg)
 
   ## Description 
   description
@@ -13,13 +14,13 @@
   * [Questions](#questions)
   
   ## Installation 
-  Clone from repo and download node on computer
+  install
 
   ## Usage 
-  Use Node and installer
+  how
 
   ## License 
-  This project is license under MIT
+  This project is license under GNU GPLv3
 
   
 
