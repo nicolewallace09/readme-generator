@@ -1,5 +1,5 @@
 # README Generator 
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
   description
@@ -17,7 +17,8 @@
 
   ## Usage 
   Use inquirer from your command line to answer questions about your project.
-  <img src="utils/README-GENERATOR.gif">
+  <img src="utils/README-GENERATOR (1).gif">
+  Or view link here ![Screencastify](https://drive.google.com/file/d/1L59uBnHWqkOiv5k9UkQEpBJuVX4CRidP/view)
 
   ## License 
   This project is license under MIT
