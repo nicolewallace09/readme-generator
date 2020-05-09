@@ -1,6 +1,6 @@
 
-  #project
-  ![Github licence](http://img.shields.io/badge/license-GNU GPLv3-blue.svg)
+  # README Generator 
+  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
   description
@@ -14,13 +14,13 @@
   * [Questions](#questions)
   
   ## Installation 
-  install
+  Instal
 
   ## Usage 
-  how
+  How to 
 
   ## License 
-  This project is license under GNU GPLv3
+  This project is license under MIT
 
   
 
