@@ -1,8 +1,8 @@
 // require modules 
-// const fs = require('fs'); 
+const fs = require('fs'); 
 const inquirer = require('inquirer'); 
 
-// const { writeFile, copyFile } = require('./utils/generateMarkdown.js');
+// readme.md
 const generatePage = require('./utils/generateMarkdown.js');
 
 // array of questions for user
@@ -13,7 +13,7 @@ const questions = () => {
         name: 'github',
         message: 'What is your GitHub username? (Required)',
         validate: nameInput => {
-            if(nameInput) {
+            if (nameInput) {
                 return true;
             } else {
                 console.log('Please enter your GitHub username!');
@@ -26,7 +26,7 @@ const questions = () => {
         name: 'email',
         message: 'What is your email address? (Required)',
         validate: nameInput => {
-            if(nameInput) {
+            if (nameInput) {
                 return true;
             } else {
                 console.log('Please enter your email address!');
@@ -40,7 +40,7 @@ const questions = () => {
         name: 'project',
         message: 'What is your project name? (Required)',
         validate: nameInput => {
-            if(nameInput) {
+            if (nameInput) {
                 return true;
             } else {
                 console.log('Please enter your project name!');
@@ -54,12 +54,12 @@ const questions = () => {
         message: 'Please write a short description of your project'
     }, 
     {
-        type: '',
+        type: 'input',
         name: 'license',
         message: 'What kind of license should your project have?'
     },
     {
-        type: '',
+        type: 'input',
         name: 'install',
         message: 'What command should be run to install dependencies?'
     },
@@ -82,24 +82,31 @@ const questions = () => {
 ]);
 };
 
-questions();
-
 // function to write README file
-// function writeToFile(fileName, data) {
-// } 
+const writeFile = fileContent => {
+    return new Promise ((resolve, reject) => {
+        fs.writeFile('README.md', fileContent, err => {
+        if (err) {
+            reject(err);
+            return;
+        }
 
-//fs.writeFile('./index.html', pageHTML, err => {
-    //if(err) throw new Error (err);
-
-    // success message 
-    // console.log("README complete! Please check the text document");
-// });
-
-// function to initialize program
-// function init() {
-
-// }
+        resolve({
+            ok: true,
+            message:'README successfully created!'
+        });
+    });
+  });
+};
 
 // function call to initialize program
-init();
-
+questions()
+.then(answers => {
+    return generatePage(answers);
+})
+.then(readme => {
+    return writeFile(readme);
+})
+.catch(err => {
+    console.log(err)
+})
