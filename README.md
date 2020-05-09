@@ -1,6 +1,6 @@
 
-  # project
-  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
+  # nicole project
+  ![Github licence](http://img.shields.io/badge/license-GNU-blue.svg)
 
   ## Description 
   description
@@ -14,17 +14,17 @@
   * [Questions](#questions)
   
   ## Installation 
-  install
+  required
 
   ## Usage 
   how to use this app
 
   ## License 
-  This project is licensed under MIT
+  This project is licensed under GNU
 
   
 
-  npm test
+  
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at wallace. You can view more of my projects at https://github.com/nicole.
+  If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.
