@@ -13,16 +13,16 @@
   * [Questions](#questions)
   
   ## Installation 
-  npm run
+  run test
 
   ## Usage 
-  You run it in Node.js 
+  Use this app on your command line with Node.js 
 
   ## License 
-  This project is license under mit
+  This project is license under MIT
 
   ## Contributing 
-  Download Node.js, along with fs and iqurier 
+  Download Node.js 
 
   ## Tests
   If there are any issues, please run npm test
