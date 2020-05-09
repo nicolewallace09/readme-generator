@@ -11,7 +11,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'github',
-        message: 'What is your GitHub username? (Required)',
+        message: 'What is your GitHub username?',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -24,7 +24,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'email',
-        message: 'What is your email address? (Required)',
+        message: 'What is your email address?',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -38,7 +38,7 @@ const questions = () => {
     {
         type: 'input',
         name: 'project',
-        message: 'What is your project name? (Required)',
+        message: 'What is your project name?',
         validate: nameInput => {
             if (nameInput) {
                 return true;
@@ -51,22 +51,56 @@ const questions = () => {
     {
         type: 'input',
         name: 'description',
-        message: 'Please write a short description of your project'
+        message: 'Please write a short description of your project.',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter a description of your project!');
+                return false; 
+            }
+        }
     }, 
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'What kind of license should your project have?'
+        message: 'What kind of license should your project have?',
+        choices: ['MIT', 'GNU GPLv3'],
+        default: ["MIT"],
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please choose a license!');
+                return false; 
+            }
+        }
     },
     {
         type: 'input',
         name: 'install',
-        message: 'What command should be run to install dependencies?'
+        message: 'What are the steps required to install your project?',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter steps required to install your project!');
+                return false; 
+            }
+        }
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'How do you use this app?'
+        message: 'How do you use this app?',
+        validate: nameInput => {
+            if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter a usage description!');
+                return false; 
+            }
+        }
     },
     {
         type: 'input',
