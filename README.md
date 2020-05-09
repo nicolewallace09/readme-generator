@@ -1,5 +1,5 @@
 # undefined
-  // license 
+  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
   description
@@ -13,19 +13,17 @@
   * [Questions](#questions)
   
   ## Installation 
-  run test
+  Clone from repo and download node on computer
 
   ## Usage 
-  Use this app on your command line with Node.js 
+  Use Node and installer
 
   ## License 
   This project is license under MIT
 
-  ## Contributing 
-  Download Node.js 
+  
 
-  ## Tests
-  If there are any issues, please run npm test
+  
 
   ## Questions
   If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.

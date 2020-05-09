@@ -5,7 +5,7 @@ const generateTest = testText => {
   }
   return`
   ## Tests
-  ${data.test}
+  If there are any issues, please run ${data.test}
   `;
 }
 
