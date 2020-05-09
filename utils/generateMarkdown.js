@@ -1,14 +1,14 @@
 // if users do not enter a test input 
-const generateTest = testText => {
-  if(!testText) {
-    return '';
-  }
-  return`
-  ## Tests
-  If there are any issues, please run 
-    ${data.test}
-  `;
-}
+// const generateTest = testText => {
+//   if(!testText) {
+//     return '';
+//   }
+//   return`
+//   ## Tests
+//   If there are any issues, please run 
+//     ${data.test}
+//   `;
+// }
 
 // if users do not enter a contributors input 
 const generateContributors = contributorText => {
@@ -51,7 +51,7 @@ const generateMarkdown = data => {
 
   ${generateContributors()}
 
-  ${generateTest()}
+  ${data.test}
 
   ## Questions
   If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
