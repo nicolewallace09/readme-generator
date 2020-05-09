@@ -106,6 +106,7 @@ const questions = () => {
         type: 'input',
         name: 'test', 
         message: 'What command should be run to run tests?',
+        default: 'npm test'
     },
     {
         type: 'input',

@@ -1,32 +1,6 @@
-// if users do not enter a test input 
-const generateTest = testText => {
-  if(!testText) {
-    return '';
-  }
-  return`
-  ## Tests
-  If there are any issues, please run 
-    ${data.test}
-  `;
-}
-
-// if users do not enter a contributors input 
-const generateContributors = contributorText => {
-  if(!contributorText) {
-    return '';
-  }
-  return`
-  ## Contributing 
-  ${data.contributors}
-  `;
-}
-
-
-
 // function to generate markdown for README
 const generateMarkdown = data => {
-  return `
-  # ${data.title}
+  return `# ${data.title}
   ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
 
   ## Description 
@@ -47,11 +21,13 @@ const generateMarkdown = data => {
   ${data.usage}
 
   ## License 
-  This project is licensed under ${data.license}
+  This project is license under ${data.license}
 
-  ${generateContributors()}
+  ## Contributing 
+  ${data.contributors}
 
-  ${generateTest()}
+  ## Tests
+  ${data.test}
 
   ## Questions
   If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
