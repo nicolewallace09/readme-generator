@@ -84,28 +84,23 @@ const questions = () => {
 
 // function to write README file
 const writeFile = fileContent => {
-    return new Promise ((resolve, reject) => {
-        fs.writeFile('README.md', fileContent, err => {
+    fs.writeFile('README.md', fileContent, err => {
         if (err) {
-            reject(err);
+            console.log(err);
             return;
+        } else {
+            console.log("Your README has been successfully created!")
         }
-
-        resolve({
-            ok: true,
-            message:'README successfully created!'
-        });
-    });
-  });
-};
+    })
+}; 
 
 // function call to initialize program
 questions()
 .then(answers => {
     return generatePage(answers);
 })
-.then(readme => {
-    return writeFile(readme);
+.then(data => {
+    return writeFile(data);
 })
 .catch(err => {
     console.log(err)

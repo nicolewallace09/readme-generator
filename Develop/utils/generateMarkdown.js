@@ -15,22 +15,22 @@ const generateMarkdown = data => {
   * [Questions](#questions)
   
   ## Installation 
-  ${`install`}
+  ${data.install}
 
   ## Usage 
-  ${`usage`}
+  ${data.usage}
 
   ## License 
-  This project is license under ${`license`}
+  This project is license under ${data.license}
 
   ## Contributing 
-  ${`contributors`}
+  ${data.contributors}
 
   ## Tests
-  If there are any issues, please run ${`test`}
+  If there are any issues, please run ${data.test}
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at ${`email`}. You can view more of my projects at ${`github`}.
+  If you have any questions about this projects, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
 `;
 }
 
