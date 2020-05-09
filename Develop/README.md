@@ -1,4 +1,4 @@
-clea# undefined
+# undefined
   // license 
 
   ## Description 
@@ -13,19 +13,19 @@ clea# undefined
   * [Questions](#questions)
   
   ## Installation 
-  install
+  npm run
 
   ## Usage 
-  usage
+  You run it in Node.js 
 
   ## License 
-  This project is license under license
+  This project is license under mit
 
   ## Contributing 
-  contributors
+  Download Node.js, along with fs and iqurier 
 
   ## Tests
-  If there are any issues, please run test
+  If there are any issues, please run npm test
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at email. You can view more of my projects at github.
+  If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.
