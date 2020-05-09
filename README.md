@@ -18,7 +18,7 @@
   ## Usage 
   Use inquirer from your command line to answer questions about your project.
   <img src="utils/README-GENERATOR (1).gif"><br>
-  Or view link here ![Screencastify](https://drive.google.com/file/d/1L59uBnHWqkOiv5k9UkQEpBJuVX4CRidP/view)
+  Or view link here - [Screencastify](https://drive.google.com/file/d/1L59uBnHWqkOiv5k9UkQEpBJuVX4CRidP/view)
 
   ## License 
   This project is license under MIT
