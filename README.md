@@ -1,6 +1,6 @@
 
-  # project
-  ![Github licence](http://img.shields.io/badge/license-GNU-blue.svg)
+  # README Generator 
+  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
   description
@@ -14,17 +14,17 @@
   * [Questions](#questions)
   
   ## Installation 
-  steps
+  Download node
 
   ## Usage 
-  how to 
+  use it
 
   ## License 
-  This project is license under GNU
+  This project is licensed under MIT
 
   
 
   
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at email. You can view more of my projects at https://github.com/nicole.
+  If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.

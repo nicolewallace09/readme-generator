@@ -5,7 +5,8 @@ const generateTest = testText => {
   }
   return`
   ## Tests
-  If there are any issues, please run ${data.test}
+  If there are any issues, please run 
+    ${data.test}
   `;
 }
 
@@ -46,7 +47,7 @@ const generateMarkdown = data => {
   ${data.usage}
 
   ## License 
-  This project is license under ${data.license}
+  This project is licensed under ${data.license}
 
   ${generateContributors()}
 
