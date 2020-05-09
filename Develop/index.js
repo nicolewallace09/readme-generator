@@ -83,8 +83,8 @@ const questions = () => {
 };
 
 // function to write README file
-const writeFile = fileContent => {
-    fs.writeFile('README.md', fileContent, err => {
+const writeFile = data => {
+    fs.writeFile('README.md', data, err => {
         if (err) {
             console.log(err);
             return;
