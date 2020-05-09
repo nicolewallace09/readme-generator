@@ -1,4 +1,4 @@
-# projectname
+# README Generator 
   ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
@@ -13,16 +13,16 @@
   * [Questions](#questions)
   
   ## Installation 
-  install
+  The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module. 
 
   ## Usage 
-  how t o 
+  Use inquirer from your command line to answer questions about your project.
 
   ## License 
   This project is license under MIT
 
   ## Contributing 
-  repo
+  Contributors should read the installation section. 
 
   ## Tests
   npm test
