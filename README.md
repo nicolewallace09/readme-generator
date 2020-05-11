@@ -1,8 +1,8 @@
 # README Generator 
-  ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
+  ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description 
-  description
+  This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js
 
   ## Table of Contents
   * [Installation](#installation)
