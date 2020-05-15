@@ -3,6 +3,7 @@ const generateMarkdown = data => {
   return `# ${data.title}
   ![Github licence](http://img.shields.io/badge/license-${data.license}-blue.svg)
 
+  
   ## Description 
   ${data.description}
 
@@ -34,4 +35,6 @@ const generateMarkdown = data => {
 `;
 }
 
+
+// use for importing Markdown in index 
 module.exports = generateMarkdown;

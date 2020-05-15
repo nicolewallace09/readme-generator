@@ -2,11 +2,12 @@
 const fs = require('fs'); 
 const inquirer = require('inquirer'); 
 
-// readme.md
+// linking to page where the README is developed 
 const generatePage = require('./utils/generateMarkdown.js');
 
 // array of questions for user
 const questions = () => {
+    // using iquirer to prompt questions to user 
     return inquirer.prompt([
     {
         type: 'input',
@@ -116,12 +117,14 @@ const questions = () => {
 ]);
 };
 
-// function to write README file
+// function to write README file using file system 
 const writeFile = data => {
     fs.writeFile('README.md', data, err => {
+        // if there is an error 
         if (err) {
             console.log(err);
             return;
+        // when the README has been created 
         } else {
             console.log("Your README has been successfully created!")
         }
@@ -130,12 +133,15 @@ const writeFile = data => {
 
 // function call to initialize program
 questions()
+// getting user answers 
 .then(answers => {
     return generatePage(answers);
 })
+// using data to display on page 
 .then(data => {
     return writeFile(data);
 })
+// catching errors 
 .catch(err => {
     console.log(err)
 })
